@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* padding-top: 60px; */
+  font-family: poppins, sans-serif;
+}
+
+
+nav{
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+  font-family: poppins, sans-serif;
+  font-weight: 900;
+  color: #fff!important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+
+ul li a {
+  font-family: poppins, sans-serif;
+  color: #000;
+  font-weight: 600;
+  color: #fff!important;
+}
+
+#center{
+  background-image: url("/images/vw-beetle-405876_1920.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 95vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.774);
+  height: 100%;
+}
+
+.underline {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+.header {
+  margin: 0 auto;
+}
+.header p {
+  margin-top: 20px;
+  line-height: 2;
+  padding: 0 10%;
+  font-size: 20px;
+  color: #fff;
+}
+.hands-title {
+  font-size: 50px;
+  font-weight: 900;
+  /* margin: 10px auto; */
+  color: #fff;
+}
+
+
+
+.btn-outline-secondary{
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus{
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.contents{
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contents p{
+  line-height: 1.5;
+}
+h4{
+  font-family: sans-serif;
+}
+
+.jumbotron{
+    padding: 2rem 1rem;
+    /* margin-bottom: 2rem; */
+    color: #000;
+    border-radius: .3rem;
+}
+.custom-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-flex-2{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.customBtn{
+  color: #4A403A;
+  border-color: #4A403A;
+}
+.customBtn:hover {
+  color: #fff;
+  background-color: #4A403A;
+  border-color: #4A403A;
+}
